@@ -1,9 +1,9 @@
 package com.topstack.aspro
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import com.topstack.common.ui.component.HiBaseActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : HiBaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
