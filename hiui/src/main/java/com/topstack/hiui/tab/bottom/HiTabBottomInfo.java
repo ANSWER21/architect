@@ -1,0 +1,45 @@
+package com.topstack.hiui.tab.bottom;
+
+import android.graphics.Bitmap;
+
+import androidx.fragment.app.Fragment;
+
+/**
+ * @author Administrator
+ */
+public class HiTabBottomInfo<Color> {
+    public enum TabType {
+        BITMAP, ICON
+    }
+
+    public Class<? extends Fragment> fragment;
+    public String name;
+    public Bitmap defaultBitmap;
+    public Bitmap selectedBitmap;
+    public String iconFont;
+    /**
+     * Tips:在Java代码中直接设置iconFont字符串无效，需要自定义在string.xml
+     */
+    public String defaultIconName;
+    public String selectedIconName;
+    public Color defaultColor;
+    public Color tintColor;
+    public TabType tabType;
+
+    public HiTabBottomInfo(String name, Bitmap defaultBitmap, Bitmap selectedBitmap) {
+        this.name = name;
+        this.defaultBitmap = defaultBitmap;
+        this.selectedBitmap = selectedBitmap;
+        this.tabType = TabType.BITMAP;
+    }
+
+    public HiTabBottomInfo(String name, String iconFont, String defaultIconName, String selectedIconName, Color defaultColor, Color tintColor) {
+        this.name = name;
+        this.iconFont = iconFont;
+        this.defaultIconName = defaultIconName;
+        this.selectedIconName = selectedIconName;
+        this.defaultColor = defaultColor;
+        this.tintColor = tintColor;
+        this.tabType = TabType.ICON;
+    }
+}
