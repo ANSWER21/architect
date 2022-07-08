@@ -16,4 +16,4 @@ rootProject.name = "architect"
 include ':demo'
 include ':hilog'
 include ':hiui'
-include ':aspro'
+include ':ASproj'
