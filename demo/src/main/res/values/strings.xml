@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">architect</string>
+    <string name="title_activity_hi_log_demo">HiLogDemoActivity</string>
+
 </resources>
