@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/activity_main.xml" value="0.2171875" />
+        <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/fragment_category.xml" value="0.2171875" />
+        <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/fragment_favoite.xml" value="0.2171875" />
+        <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/fragment_home.xml" value="0.2171875" />
+        <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/fragment_profile_page.xml" value="0.2171875" />
+        <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/fragment_recommend.xml" value="0.2171875" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/activity_hi_log_demo.xml" value="0.25" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/activity_hi_tab_bottom_demo.xml" value="0.37864583333333335" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/activity_main.xml" value="0.1838905775075988" />
