@@ -1,6 +1,7 @@
 package com.topstack.aspro.logic;
 
 import android.content.res.Resources;
+import android.os.Bundle;
 import android.view.View;
 
 import androidx.annotation.IdRes;
@@ -33,10 +34,19 @@ public class MainActivityLogic {
     private List<HiTabBottomInfo<?>> infoList;
     private ActivityProvider activityProvider;
     private int currentItemIndex;
+    private final static String SAVED_CURRENT_ID = "SAVED_CURRENT_ID";
 
-    public MainActivityLogic(ActivityProvider activityProvider) {
+    public MainActivityLogic(ActivityProvider activityProvider, Bundle savedInstanceState) {
         this.activityProvider = activityProvider;
+        //fix 不保留活动导致的Fragment重叠问题
+        if (savedInstanceState != null) {
+            currentItemIndex = savedInstanceState.getInt(SAVED_CURRENT_ID);
+        }
         initTabBottom();
+    }
+
+    public void onSaveInstanceState(@NonNull Bundle outState) {
+        outState.putInt(SAVED_CURRENT_ID, currentItemIndex);
     }
 
     private void initTabBottom() {
@@ -102,9 +112,10 @@ public class MainActivityLogic {
             @Override
             public void onTabSelectedChange(int index, @Nullable HiTabBottomInfo<?> prevInfo, @NonNull HiTabBottomInfo<?> nextInfo) {
                 fragmentTabView.setCurrentItem(index);
+                MainActivityLogic.this.currentItemIndex = index;
             }
         });
-        hiTabBottomLayout.defaultSelected(homeInfo);
+        hiTabBottomLayout.defaultSelected(infoList.get(currentItemIndex));
     }
 
 
