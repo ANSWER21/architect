@@ -17,5 +17,8 @@ class MainActivity : AppCompatActivity() {
         binding.btnTabBottom.setOnClickListener {
             startActivity(Intent(this, HiTabBottomDemoActivity::class.java))
         }
+        binding.btnTabTop.setOnClickListener {
+            startActivity(Intent(this, HiTabTopDemoActivity::class.java))
+        }
     }
 }

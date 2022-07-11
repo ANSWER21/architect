@@ -10,15 +10,19 @@
         <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/fragment_profile_page.xml" value="0.2171875" />
         <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/fragment_recommend.xml" value="0.2171875" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/activity_hi_log_demo.xml" value="0.25" />
+        <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/activity_hi_tab.xml" value="0.37864583333333335" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/activity_hi_tab_bottom_demo.xml" value="0.37864583333333335" />
+        <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/activity_hi_tab_top_demo.xml" value="0.10024449877750612" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/activity_main.xml" value="0.1838905775075988" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/hi_bottom_layout_bg.xml" value="0.37864583333333335" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/hi_tab_bottom.xml" value="0.37864583333333335" />
         <entry key="..\:/Project/Android/study/architect/hilog/src/main/res/layout/hilog_item.xml" value="0.1838905775075988" />
+        <entry key="..\:/Project/Android/study/architect/hiui/src/main/res/drawable/shape_tab_top_indicator.xml" value="0.223" />
         <entry key="..\:/Project/Android/study/architect/hiui/src/main/res/layout/activity_hi_tab_bottom.xml" value="0.37447916666666664" />
         <entry key="..\:/Project/Android/study/architect/hiui/src/main/res/layout/activity_hi_tab_bottom_demo.xml" value="0.37864583333333335" />
         <entry key="..\:/Project/Android/study/architect/hiui/src/main/res/layout/hi_bottom_layout_bg.xml" value="0.37864583333333335" />
         <entry key="..\:/Project/Android/study/architect/hiui/src/main/res/layout/hi_tab_bottom.xml" value="0.37864583333333335" />
+        <entry key="..\:/Project/Android/study/architect/hiui/src/main/res/layout/hi_tab_top.xml" value="0.1752136752136752" />
       </map>
     </option>
   </component>
