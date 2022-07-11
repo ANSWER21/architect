@@ -65,16 +65,18 @@ public class HiTabBottom extends RelativeLayout implements IHiTab<HiTabBottomInf
                 if (!TextUtils.isEmpty(tabInfo.name)) {
                     tabNameView.setText(tabInfo.name);
                 }
-                if (selected) {
-                    tabIconView.setText(TextUtils.isEmpty(tabInfo.selectedIconName) ? tabInfo.defaultIconName : tabInfo.selectedIconName);
-                    tabIconView.setTextColor(getTextColor(tabInfo.tintColor));
-                    tabNameView.setTextColor(getTextColor(tabInfo.tintColor));
-                } else {
-                    tabIconView.setText(tabInfo.defaultIconName);
-                    tabIconView.setTextColor(getTextColor(tabInfo.defaultColor));
-                    tabNameView.setTextColor(getTextColor(tabInfo.defaultColor));
-                }
             }
+
+            if (selected) {
+                tabIconView.setText(TextUtils.isEmpty(tabInfo.selectedIconName) ? tabInfo.defaultIconName : tabInfo.selectedIconName);
+                tabIconView.setTextColor(getTextColor(tabInfo.tintColor));
+                tabNameView.setTextColor(getTextColor(tabInfo.tintColor));
+            } else {
+                tabIconView.setText(tabInfo.defaultIconName);
+                tabIconView.setTextColor(getTextColor(tabInfo.defaultColor));
+                tabNameView.setTextColor(getTextColor(tabInfo.defaultColor));
+            }
+
         } else if (tabInfo.tabType == HiTabBottomInfo.TabType.BITMAP) {
             if (init) {
                 tabImageView.setVisibility(VISIBLE);
