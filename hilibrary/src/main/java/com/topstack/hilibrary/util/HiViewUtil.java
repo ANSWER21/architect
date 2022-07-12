@@ -1,4 +1,4 @@
-package com.topstack.hilog.util;
+package com.topstack.hilibrary.util;
 
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +8,9 @@ import androidx.annotation.Nullable;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * @author Administrator
+ */
 public class HiViewUtil {
     /**
      * 获取指定类型的子View

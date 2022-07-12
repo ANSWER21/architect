@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.topStack.architect.databinding.ActivityHiTabBottomDemoBinding
-import com.topstack.hilog.util.HiDisplayUtil
+import com.topstack.hilibrary.util.HiDisplayUtil
 import com.topstack.hiui.tab.bottom.HiTabBottomInfo
 
 class HiTabBottomDemoActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.topstack.hilog.util;
+package com.topstack.hilibrary.util;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -9,7 +9,6 @@ import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
 
-import com.example.hilibrary.util.AppGlobals;
 
 /**
  * @author Administrator

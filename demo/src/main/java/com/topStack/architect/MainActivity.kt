@@ -20,5 +20,8 @@ class MainActivity : AppCompatActivity() {
         binding.btnTabTop.setOnClickListener {
             startActivity(Intent(this, HiTabTopDemoActivity::class.java))
         }
+        binding.btnRefresh.setOnClickListener {
+            startActivity(Intent(this, HiRefreshDemoActivity::class.java))
+        }
     }
 }

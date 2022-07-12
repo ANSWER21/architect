@@ -9,7 +9,8 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.topstack.hilog.util.HiDisplayUtil;
+import com.topstack.hilibrary.util.HiDisplayUtil;
+
 
 /**
  * @author Administrator

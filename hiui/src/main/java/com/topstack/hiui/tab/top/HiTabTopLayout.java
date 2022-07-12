@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
 
-import com.topstack.hilog.util.HiDisplayUtil;
+import com.topstack.hilibrary.util.HiDisplayUtil;
 import com.topstack.hiui.tab.common.IHiTabLayout;
 
 import java.util.ArrayList;

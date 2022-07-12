@@ -15,8 +15,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.topstack.hilog.util.HiDisplayUtil;
-import com.topstack.hilog.util.HiViewUtil;
+import com.topstack.hilibrary.util.HiDisplayUtil;
+import com.topstack.hilibrary.util.HiViewUtil;
 import com.topstack.hiui.R;
 import com.topstack.hiui.tab.common.IHiTabLayout;
 
