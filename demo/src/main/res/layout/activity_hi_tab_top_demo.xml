@@ -9,7 +9,8 @@
     <com.topstack.hiui.tab.top.HiTabTopLayout
         android:id="@+id/tab_top_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:scrollbars="none" />
 
     <View
         android:layout_width="match_parent"
