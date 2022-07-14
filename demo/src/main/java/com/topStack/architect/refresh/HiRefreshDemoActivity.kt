@@ -1,4 +1,4 @@
-package com.topStack.architect
+package com.topStack.architect.refresh
 
 import android.os.Bundle
 import android.os.Handler
@@ -9,6 +9,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.topStack.architect.R
 import com.topstack.hiui.refresh.HiRefresh
 import com.topstack.hiui.refresh.HiRefreshLayout
 import com.topstack.hiui.refresh.HiTextOverView

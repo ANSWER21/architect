@@ -14,18 +14,21 @@
         android:theme="@style/Theme.Architect"
         tools:targetApi="31">
         <activity
-            android:name=".HiRefreshDemoActivity"
+            android:name=".banner.HiBannerDemoActivity"
             android:exported="false" />
         <activity
-            android:name=".HiTabTopDemoActivity"
+            android:name=".refresh.HiRefreshDemoActivity"
             android:exported="false" />
         <activity
-            android:name=".HiTabBottomDemoActivity"
+            android:name=".tab.HiTabTopDemoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tab.HiTabBottomDemoActivity"
             android:exported="false"
             android:label="@string/title_activity_hi_tab_bottom_demo"
             android:theme="@style/Theme.Architect.NoActionBar" />
         <activity
-            android:name=".HiLogDemoActivity"
+            android:name=".log.HiLogDemoActivity"
             android:exported="false"
             android:label="@string/title_activity_hi_log_demo"
             android:theme="@style/Theme.Architect.NoActionBar" />

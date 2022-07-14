@@ -1,4 +1,4 @@
-package com.topStack.architect;
+package com.topStack.architect.tab;
 
 import android.os.Bundle;
 import android.widget.Toast;
@@ -7,6 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.topStack.architect.R;
 import com.topstack.hiui.tab.common.IHiTabLayout;
 import com.topstack.hiui.tab.top.HiTabTopInfo;
 import com.topstack.hiui.tab.top.HiTabTopLayout;

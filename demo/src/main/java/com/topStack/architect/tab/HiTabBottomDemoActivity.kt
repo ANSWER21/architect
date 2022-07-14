@@ -1,9 +1,10 @@
-package com.topStack.architect
+package com.topStack.architect.tab
 
 import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.topStack.architect.R
 import com.topStack.architect.databinding.ActivityHiTabBottomDemoBinding
 import com.topstack.hilibrary.util.HiDisplayUtil
 import com.topstack.hiui.tab.bottom.HiTabBottomInfo

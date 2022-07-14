@@ -1,10 +1,11 @@
-package com.topStack.architect;
+package com.topStack.architect.refresh;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.topStack.architect.R;
 import com.topstack.hiui.refresh.HiOverView;
 
 

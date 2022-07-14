@@ -1,4 +1,4 @@
-package com.topStack.architect
+package com.topStack.architect.log
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

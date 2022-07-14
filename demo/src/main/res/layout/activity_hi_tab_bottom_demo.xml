@@ -4,7 +4,7 @@
     android:id="@+id/hitablayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HiTabBottomDemoActivity">
+    tools:context=".tab.HiTabBottomDemoActivity">
 
     <ScrollView
         android:layout_width="match_parent"

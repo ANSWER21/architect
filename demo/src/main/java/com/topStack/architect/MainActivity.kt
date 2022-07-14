@@ -3,7 +3,12 @@ package com.topStack.architect
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.topStack.architect.banner.HiBannerDemoActivity
 import com.topStack.architect.databinding.ActivityMainBinding
+import com.topStack.architect.log.HiLogDemoActivity
+import com.topStack.architect.refresh.HiRefreshDemoActivity
+import com.topStack.architect.tab.HiTabBottomDemoActivity
+import com.topStack.architect.tab.HiTabTopDemoActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -22,6 +27,9 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnRefresh.setOnClickListener {
             startActivity(Intent(this, HiRefreshDemoActivity::class.java))
+        }
+        binding.btnBanner.setOnClickListener {
+            startActivity(Intent(this, HiBannerDemoActivity::class.java))
         }
     }
 }
