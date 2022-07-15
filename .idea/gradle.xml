@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/hilibrary" />
             <option value="$PROJECT_DIR$/hilog" />
             <option value="$PROJECT_DIR$/hiui" />
+            <option value="$PROJECT_DIR$/kotlin" />
           </set>
         </option>
       </GradleProjectSettings>
