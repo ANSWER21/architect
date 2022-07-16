@@ -7,4 +7,11 @@
     <string name="if_category">&#xf00a6;</string>
     <string name="if_favorite">&#xe639;</string>
     <string name="if_favorite1">&#xe620;</string>
+
+    <string name="if_unexpected">&#xe606;</string>
+    <string name="if_unexpected1">&#xe692;</string>
+    <string name="if_wifi_error">&#xe876;</string>
+    <string name="if_wifi_error1">&#xe501;</string>
+    <string name="degrade_title">错误提示</string>
+    <string name="degrade_tips">页面跑远了，开发小哥正在加急修复中...</string>
 </resources>
