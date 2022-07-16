@@ -1,0 +1,9 @@
+{
+  "notification": {
+    "asStarter": false,
+    "clazName": "com.topStack.architect.navigation.NotificationFragment",
+    "pageUrl": "notification",
+    "id": 440847790,
+    "destType": "fragment"
+  }
+}
