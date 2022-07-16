@@ -7,6 +7,7 @@ import com.topStack.architect.banner.HiBannerDemoActivity
 import com.topStack.architect.databinding.ActivityMainBinding
 import com.topStack.architect.item.HiItemDemoActivity
 import com.topStack.architect.log.HiLogDemoActivity
+import com.topStack.architect.navigation.HiNavigationDemoActivity
 import com.topStack.architect.refresh.HiRefreshDemoActivity
 import com.topStack.architect.tab.HiTabBottomDemoActivity
 import com.topStack.architect.tab.HiTabTopDemoActivity
@@ -34,6 +35,9 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnItem.setOnClickListener {
             startActivity(Intent(this, HiItemDemoActivity::class.java))
+        }
+        binding.btnNavigation.setOnClickListener {
+            startActivity(Intent(this, HiNavigationDemoActivity::class.java))
         }
     }
 }

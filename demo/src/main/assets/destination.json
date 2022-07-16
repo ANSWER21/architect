@@ -5,5 +5,26 @@
     "pageUrl": "notification",
     "id": 440847790,
     "destType": "fragment"
+  },
+  "main/tabs/dashboard": {
+    "asStarter": false,
+    "clazName": "com.topStack.architect.navigation.ui.dashboard.DashboardFragment",
+    "pageUrl": "main/tabs/dashboard",
+    "id": 1621223715,
+    "destType": "fragment"
+  },
+  "main/tabs/home": {
+    "asStarter": true,
+    "clazName": "com.topStack.architect.navigation.ui.home.HomeFragment",
+    "pageUrl": "main/tabs/home",
+    "id": 577450359,
+    "destType": "fragment"
+  },
+  "main/tabs/notification": {
+    "asStarter": false,
+    "clazName": "com.topStack.architect.navigation.ui.notifications.NotificationsFragment",
+    "pageUrl": "main/tabs/notification",
+    "id": 1146792245,
+    "destType": "fragment"
   }
 }
