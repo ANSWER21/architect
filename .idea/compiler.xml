@@ -24,6 +24,7 @@
       <module name="architect.ASproj" target="11" />
       <module name="architect.common" target="11" />
       <module name="architect.demo" target="11" />
+      <module name="architect.hiconcurrent" target="11" />
       <module name="architect.hilibrary" target="11" />
       <module name="architect.hilog" target="11" />
       <module name="architect.hiui" target="11" />
