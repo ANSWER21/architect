@@ -1,4 +1,4 @@
-package com.topstack.hiconcurrent;
+package com.topstack.hiconcurrent.concurrent;
 
 import java.util.ArrayList;
 import java.util.List;
