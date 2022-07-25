@@ -6,6 +6,7 @@
         <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/activity_main.xml" value="0.2171875" />
         <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/fragment_category.xml" value="0.2171875" />
         <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/fragment_favoite.xml" value="0.2171875" />
+        <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/fragment_favorite.xml" value="0.21614583333333334" />
         <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/fragment_home.xml" value="0.2171875" />
         <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/fragment_profile_page.xml" value="0.2171875" />
         <entry key="..\:/Project/Android/study/architect/ASproj/src/main/res/layout/fragment_recommend.xml" value="0.2171875" />
@@ -16,6 +17,7 @@
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1825" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1825" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/activity_hi_banner_demo.xml" value="0.246875" />
+        <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/activity_hi_executor_demo.xml" value="0.25" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/activity_hi_item_demo.xml" value="0.13909774436090225" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/activity_hi_log_demo.xml" value="0.25" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/activity_hi_refresh_demo.xml" value="0.37864583333333335" />
@@ -28,6 +30,7 @@
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/fragment_blank.xml" value="0.2" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/fragment_home.xml" value="0.16041666666666668" />
+        <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/fragment_notifications.xml" value="0.21614583333333334" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/hi_bottom_layout_bg.xml" value="0.37864583333333335" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/hi_tab_bottom.xml" value="0.37864583333333335" />
         <entry key="..\:/Project/Android/study/architect/demo/src/main/res/layout/item_layout.xml" value="0.19895833333333332" />

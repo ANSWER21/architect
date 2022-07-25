@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.topStack.architect.banner.HiBannerDemoActivity
 import com.topStack.architect.databinding.ActivityMainBinding
+import com.topStack.architect.executor.HiExecutorDemoActivity
 import com.topStack.architect.item.HiItemDemoActivity
 import com.topStack.architect.log.HiLogDemoActivity
 import com.topStack.architect.navigation.HiNavigationDemoActivity
@@ -38,6 +39,9 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnNavigation.setOnClickListener {
             startActivity(Intent(this, HiNavigationDemoActivity::class.java))
+        }
+        binding.btnExecutor.setOnClickListener {
+            startActivity(Intent(this, HiExecutorDemoActivity::class.java))
         }
     }
 }
